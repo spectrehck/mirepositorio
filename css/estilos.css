@@ -1,0 +1,13 @@
+/* 
+colocando en rojo todos los estilos */
+
+h1{
+	color: #ff0000
+	opacity:0.5;
+}
+/* 
+colocando en verde oscuro todo el body
+ */
+body{
+	background-color: #344522
+}
