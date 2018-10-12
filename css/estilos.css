@@ -1,0 +1,109 @@
+/*
+definiendo las fuentes
+ */
+@font-face{
+	font-family: "ballpark";
+	src : url("../fuentes/ballpark.ttf");
+	font-style: normal;
+	font-weight:normal;
+}
+@font-face{
+	font-family: "dayrom";
+	src : url("../fuentes/dayrom.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+/*definiendo los elementos principales*/
+body {
+background: url("../imagenes/yelow_background.png"); 
+font-family: "trebuchet MS",arial, sans-serif;
+color: #1818181
+}
+#contenido {
+	width: 900px;
+	margin: auto;
+}
+header {
+	background: url("../imagenes/line.png") repeat-x bottom; 
+}
+#logo{
+	display: inline-block;
+}
+header h1 {
+	font-family: "ballpark";
+	font-size:2.5em;
+	font-weight: normal;
+}
+#imagen, header h1 {
+	display: inline-block;
+	margin-bottom: 0px;
+
+}
+header h2 {
+	font-family: "dayrom"
+	font-size:1.1em ;
+	margin-top: 0px ;
+	font-weight: normal;
+}
+nav {
+	display: inline-block;
+	width: 740px;
+	text-align: right;
+}
+nav ul{
+	list-style-type: none; 
+	/*sirve para quietar las viñetas al costado de las listas*/
+}
+nav li {
+	display: inline-block;
+	margin-right:15px;
+}
+nav a {
+	font-size: 1.3em ;
+	color: #181818 ;
+	padding-bottom:3px ;
+	text-decoration: none;
+}
+nav a: hover {
+	color:#3616C4;
+	border-bottom: 3px solid #3616C4;
+
+}
+#banner {
+	margin-top: 15px;
+	background: url(../imagenes/sanfrancisco.jpg);
+	height: 200px ;
+	border-radius: 5px;
+	box-shadow: 0px 4px 4px #DB130E;
+	position: relative;
+}
+#texto_banner {
+	font-size: 0.8em;
+	color: white;
+	background-color: rgb(24,24,24,0.8);
+	padding-top: 15px;
+	padding-bottom: : 15px;
+	/*padding es el relleno externo que se le da*/
+	width: 99.5%;
+	height: 33px;
+	border-radius: 0px 0px 5px 5px;
+	bottom: 0px;
+	position: absolute;
+}
+#boton_rojo {
+	display: inline-block;
+	height: 25px;
+	border-radius: 5px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font-size: 1.2em,
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 3px 8px 0px 8px;
+	border: 1px solid: #942A29;
+	background-image: linear-gradient(#7D3518, #BD3518);
+}
+
+
